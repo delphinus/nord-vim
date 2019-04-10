@@ -260,7 +260,7 @@ call s:hi("TabLineFill", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "NONE",
 call s:hi("TabLineSel", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "NONE", "")
 
 "+--- Window ---+
-call s:hi("Title", s:nord4_gui, "", "NONE", "", "NONE", "")
+call s:hi("Title", s:nord4_gui, "", "NONE", "", s:bold, "")
 
 if g:nord_bold_vertical_split_line == 0
   call s:hi("VertSplit", s:nord2_gui, s:nord0_gui, s:nord3_term, "NONE", "NONE", "")
